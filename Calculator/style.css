@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=IBM+Plex+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: white;
+    --heading-color: black;
+}
+html,body{
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+}
+
+/* For theme change */
+.icon{
+    display: inline-block;
+    width: 3rem;
+    text-align: end;
+}
+.dark-theme{
+    --primary-color: black;
+    --heading-color: white;
+}
+
+header{
+    font-size: larger;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px grey;
+    color: var(--heading-color);
+    justify-content: center;
+    font-family:  'IBM Plex Sans',sans-serif;
+    margin-bottom: 8px;
+}
+.change-theme-icon{
+    width: 3.7rem;
+    display: block;
+    margin-left: auto;
+}
+.container{
+    position: relative;
+    margin: 10vh 0;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    width: 66px;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 4px;
+    cursor:pointer;
+    box-shadow: inset 3px 3px 2px grey;
+}
+
+.del{
+    width:136px;
+}
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    margin: 0;
+    padding: 0;
+    width : 293px;
+    height: 60px;
+    text-align: end;
+    background: whitesmoke;
+    border-radius: 4px;
+    font-size: large;
+    color:grey;
+    box-shadow: inset 3px 3px 2px grey;
+}
+
+
+footer{
+    margin : 20px;
+    color:var(--heading-color);
+}
+
+
+/* Utility Classes */
+
+.text-center{
+    text-align: center;
+}
+.flex{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
