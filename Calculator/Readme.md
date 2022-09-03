@@ -1,1 +1,1 @@
-Check out the website [here](https://deepti05calculator.netlify.app/)
+Check out the website [https://deepti05calculator.netlify.app/](https://deepti05calculator.netlify.app/)
