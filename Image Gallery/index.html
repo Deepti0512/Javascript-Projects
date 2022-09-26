@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Image Galery | LightBox Effect</title>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <div class="main-container">
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="image"> <span><img src="images/img1.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img2.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img3.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img4.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img5.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img6.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img7.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img8.jpg" alt=""> </span></div>
+                <div class="image"> <span><img src="images/img9.jpg" alt=""> </span></div>
+            </div>
+        </div>
+
+        <div class="preview-box">
+            <div class="details">
+                <!-- It contains the text 'image 1 of 6' etc -->
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <!-- This is 'X' icon (to close the preview box) -->
+                <div class="closeIcon">X</div>
+            </div>
+            <div class="image-box">
+                <!-- Contains the selected image and two icons for navigating to the previous and next image-->
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="image-description">
+                <!-- Contains a small description of the image  -->
+                <p class="img-desc">Sample text for image 1</p>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <script src="main.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
+<!-- fas fa-times : close icon -->
